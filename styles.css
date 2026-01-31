@@ -385,7 +385,6 @@ button, input, textarea {
     background-color: var(--first-color-light);
     border-radius: .5rem;
     margin-bottom: 1rem;
-    padding: 1rem;
     overflow: hidden;
     height: 220px;
     display: flex;
