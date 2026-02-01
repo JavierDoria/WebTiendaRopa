@@ -612,13 +612,18 @@ button, input, textarea {
 }
 
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 720px) {
     .container {
         margin-left: 1rem;
         margin-right: 1rem;
     }
     .products-container {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+    .product-card{
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
     }
 }
 
